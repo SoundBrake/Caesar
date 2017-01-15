@@ -13,7 +13,9 @@ public class CaesarCipherTest {
 		
 		CaesarCipher cipher = new CaesarCipher();
 		try{
-			 assertEquals("lwkl", cipher.encrypt("test", 18));
+			 
+			//testing
+			assertEquals("lwkl", cipher.encrypt("test", 18));
 			 
 		 
 		}catch(Exception e){
